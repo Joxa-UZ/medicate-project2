@@ -704,6 +704,15 @@ body {
     background-color: #fff;
     z-index: 21;
   }
+  .header-bottom__home-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: start;
+  }
 }
 @media only screen and (max-width: 992px) {
   .header-right__top {
@@ -721,4 +730,109 @@ body {
 .hero {
   height: 100vh;
   background-color: #000;
+  background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.hero-box__info {
+  padding-top: 150px;
+}
+
+.hero-box__title {
+  margin-bottom: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+.hero-box__title-box {
+  width: 100%;
+  max-width: 500px;
+}
+
+.hero-box__site-title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 60px;
+}
+
+.hero-box__text {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero-box__link {
+  display: inline-block;
+  padding: 15px;
+  padding-right: 35px;
+  font-size: 19px;
+  background-color: rgb(44, 125, 190);
+  color: #fff;
+  background-image: url("../images/plus.png");
+  background-repeat: no-repeat;
+  background-size: 17px;
+  border-radius: 8px;
+  background-position: calc(50% + 60px) 50%;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1240px) {
+  .hero {
+    height: 600px;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .hero {
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hero {
+    background-size: cover;
+    background-position: calc(50% - 70px) 50%;
+  }
+  .hero-box__title-box {
+    max-width: 350px;
+  }
+  .hero-box__site-title {
+    font-size: 40px;
+  }
+  .hero-box__text {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hero {
+    background-size: cover;
+    background-position: calc(50% - 140px) 50%;
+  }
+  .hero-box__title-box {
+    max-width: 300px;
+  }
+  .hero-box__site-title {
+    font-size: 30px;
+  }
+  .hero-box__text {
+    font-size: 12px;
+  }
+  .hero-box__link {
+    font-size: 10px;
+    background-size: 15px;
+    background-position: calc(50% + 35px) 50%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero {
+    background-size: cover;
+    background-position: calc(50% - 180px) 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
