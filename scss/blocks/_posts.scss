@@ -1,0 +1,628 @@
+#post {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+  .info {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      padding: 10px;
+      background-color: #59b0f75d;
+      color: #2490eb;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+  }
+  .posts_header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    .title {
+      font-size: 48px;
+      padding: 10px 0;
+    }
+  }
+  .post_container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    .posts {
+      width: 30%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: auto;
+      box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
+        -2px 2px 8px rgba(61, 61, 61, 0.61);
+      .plan_title {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: #14457b;
+        font-size: 28px;
+        color: #fff;
+      }
+      .img_icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        i {
+          width: 120px;
+          height: 120px;
+          display: block;
+          background-color: #2490eb;
+          border-radius: 50%;
+          margin-top: -60px;
+        }
+      }
+      .plan_price {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        .price {
+          font-size: 64px;
+          span {
+            font-size: 16px;
+          }
+        }
+      }
+      .plan_item {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: -60px;
+        .plans_item {
+          padding: 5px;
+          margin-top: 5px;
+          i {
+            padding: 0 10px;
+          }
+        }
+      }
+      .btn {
+        padding: 30px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .plan_btn {
+          padding: 15px 30px;
+          outline: none;
+          border: none;
+          color: #fff;
+          background-color: #14457b;
+          border-radius: 6px;
+          transition: 0.4s all linear;
+          &:hover {
+            background-color: #2490eb;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  #post {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    .info {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        padding: 10px;
+        background-color: #59b0f75d;
+        color: #2490eb;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+    }
+    .posts_header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      .title {
+        font-size: 48px;
+        padding: 10px 0;
+      }
+    }
+    .post_container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      .posts {
+        width: 30%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: auto;
+        box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
+          -2px 2px 8px rgba(61, 61, 61, 0.61);
+        .plan_title {
+          padding-top: 20px;
+          padding-bottom: 50px;
+          display: flex;
+          justify-content: center;
+          background-color: #14457b;
+          font-size: 28px;
+          color: #fff;
+        }
+        .img_icon {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          i {
+            width: 120px;
+            height: 120px;
+            display: block;
+            background-color: #2490eb;
+            border-radius: 50%;
+            margin-top: -60px;
+          }
+        }
+        .plan_price {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          .price {
+            font-size: 64px;
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+        .plan_item {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          margin-left: -60px;
+          .plans_item {
+            padding: 5px;
+            margin-top: 5px;
+            i {
+              padding: 0 10px;
+            }
+          }
+        }
+        .btn {
+          padding: 30px 0;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .plan_btn {
+            padding: 15px 30px;
+            outline: none;
+            border: none;
+            color: #fff;
+            background-color: #14457b;
+            border-radius: 6px;
+            transition: 0.4s all linear;
+            &:hover {
+              background-color: #2490eb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #post {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    .info {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        padding: 10px;
+        background-color: #59b0f75d;
+        color: #2490eb;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+    }
+    .posts_header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      .title {
+        font-size: 48px;
+        padding: 10px 0;
+      }
+    }
+    .post_container {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin-top: 30px;
+      .posts {
+        width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: auto;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
+          -2px 2px 8px rgba(61, 61, 61, 0.61);
+        .plan_title {
+          padding-top: 20px;
+          padding-bottom: 50px;
+          display: flex;
+          justify-content: center;
+          background-color: #14457b;
+          font-size: 28px;
+          color: #fff;
+        }
+        .img_icon {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          i {
+            width: 120px;
+            height: 120px;
+            display: block;
+            background-color: #2490eb;
+            border-radius: 50%;
+            margin-top: -60px;
+          }
+        }
+        .plan_price {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          .price {
+            font-size: 64px;
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+        .plan_item {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          margin-left: -60px;
+          .plans_item {
+            padding: 5px;
+            margin-top: 5px;
+            i {
+              padding: 0 10px;
+            }
+          }
+        }
+        .btn {
+          padding: 30px 0;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .plan_btn {
+            padding: 15px 30px;
+            outline: none;
+            border: none;
+            color: #fff;
+            background-color: #14457b;
+            border-radius: 6px;
+            transition: 0.4s all linear;
+            &:hover {
+              background-color: #2490eb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #post {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    .info {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        padding: 10px;
+        background-color: #59b0f75d;
+        color: #2490eb;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+    }
+    .posts_header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      .title {
+        font-size: 48px;
+        padding: 10px 0;
+      }
+    }
+    .post_container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin-top: 30px;
+      .posts {
+        width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: auto;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
+          -2px 2px 8px rgba(61, 61, 61, 0.61);
+        .plan_title {
+          padding-top: 20px;
+          padding-bottom: 50px;
+          display: flex;
+          justify-content: center;
+          background-color: #14457b;
+          font-size: 28px;
+          color: #fff;
+        }
+        .img_icon {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          i {
+            width: 120px;
+            height: 120px;
+            display: block;
+            background-color: #2490eb;
+            border-radius: 50%;
+            margin-top: -60px;
+          }
+        }
+        .plan_price {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          .price {
+            font-size: 64px;
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+        .plan_item {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          margin-left: -60px;
+          .plans_item {
+            padding: 5px;
+            margin-top: 5px;
+            i {
+              padding: 0 10px;
+            }
+          }
+        }
+        .btn {
+          padding: 30px 0;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .plan_btn {
+            padding: 15px 30px;
+            outline: none;
+            border: none;
+            color: #fff;
+            background-color: #14457b;
+            border-radius: 6px;
+            transition: 0.4s all linear;
+            &:hover {
+              background-color: #2490eb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #post {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    .info {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        padding: 10px;
+        background-color: #59b0f75d;
+        color: #2490eb;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+    }
+    .posts_header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      .title {
+        font-size: 48px;
+        padding: 10px 0;
+      }
+    }
+    .post_container {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin-top: 30px;
+      .posts {
+        width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: auto;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
+          -2px 2px 8px rgba(61, 61, 61, 0.61);
+        .plan_title {
+          padding-top: 20px;
+          padding-bottom: 50px;
+          display: flex;
+          justify-content: center;
+          background-color: #14457b;
+          font-size: 28px;
+          color: #fff;
+        }
+        .img_icon {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          i {
+            width: 120px;
+            height: 120px;
+            display: block;
+            background-color: #2490eb;
+            border-radius: 50%;
+            margin-top: -60px;
+          }
+        }
+        .plan_price {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          .price {
+            font-size: 64px;
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+        .plan_item {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          margin-left: -60px;
+          .plans_item {
+            padding: 5px;
+            margin-top: 5px;
+            i {
+              padding: 0 10px;
+            }
+          }
+        }
+        .btn {
+          padding: 30px 0;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .plan_btn {
+            padding: 15px 30px;
+            outline: none;
+            border: none;
+            color: #fff;
+            background-color: #14457b;
+            border-radius: 6px;
+            transition: 0.4s all linear;
+            &:hover {
+              background-color: #2490eb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
