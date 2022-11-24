@@ -1057,6 +1057,1598 @@ body {
     background-position: calc(50% - 180px) 50%;
   }
 }
+#about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+#about .about_container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+#about .about_container .about_header {
+  padding: 20px 0;
+}
+#about .about_container .about_header h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+#about .about_container .skills_tab_btn {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+#about .about_container .skills_tab_btn .tab_btn_item {
+  width: 18%;
+  height: 120px;
+  padding: 15px 0;
+  background-color: #eee;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #eee;
+}
+#about .about_container .skills_tab_btn .tab_btn_item .icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#about .about_container .skills_tab_btn .tab_btn_item .icon img {
+  width: 50px;
+}
+#about .about_container .skills_tab_btn .tab_btn_item span {
+  color: #2490eb;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#about .about_container .skills_tab_btn .active {
+  background-color: #2490eb;
+  position: relative;
+}
+#about .about_container .skills_tab_btn .active::before {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #2490eb;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  bottom: -15px;
+  z-index: -1;
+}
+#about .about_container .skills_tab_btn .active span {
+  color: #eee;
+}
+#about .about_container .tab_box {
+  width: 100%;
+  margin-top: 30px;
+}
+#about .about_container .tab_box .box_item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#about .about_container .tab_box .item_img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#about .about_container .tab_box .item_img img {
+  width: 100%;
+}
+#about .about_container .tab_box .item_decr {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#about .about_container .tab_box .item_decr .decr_header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#about .about_container .tab_box .item_decr .decr_header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+#about .about_container .tab_box .item_decr .decr_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#about .about_container .tab_box .item_decr .decr_title p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #999;
+}
+#about .about_container .tab_box .item_decr .decr_item {
+  list-style: none;
+  width: 100%;
+  padding: 10px 0;
+}
+#about .about_container .tab_box .item_decr .decr_item li {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #999;
+}
+#about .about_container .tab_box .item_decr .decr_item li i {
+  padding: 0 10px 0 0;
+  color: #2490eb;
+}
+#about .about_container .tab_box .item_decr .decr_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+#about .about_container .tab_box .item_decr .decr_btn button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #2490eb;
+  border-radius: 5px;
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+}
+#about .about_container .tab_box .item_decr .decr_btn button b {
+  font-size: 20px;
+  margin: 0 10px;
+}
+#about .about_container .tab_box .item_decr .decr_btn button:hover {
+  background-color: #000;
+}
+
+@media (max-width: 1440px) {
+  #about {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  #about .about_container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #about .about_container .about_header {
+    padding: 20px 0;
+  }
+  #about .about_container .about_header h1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item {
+    width: 18%;
+    height: 120px;
+    padding: 15px 0;
+    background-color: #eee;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #eee;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon img {
+    width: 50px;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item span {
+    color: #2490eb;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn .active {
+    background-color: #2490eb;
+    position: relative;
+  }
+  #about .about_container .skills_tab_btn .active::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #2490eb;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: -15px;
+    z-index: -1;
+  }
+  #about .about_container .skills_tab_btn .active span {
+    color: #eee;
+  }
+  #about .about_container .tab_box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #about .about_container .tab_box .box_item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #about .about_container .tab_box .item_img {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_img img {
+    width: 100%;
+  }
+  #about .about_container .tab_box .item_decr {
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_decr .decr_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  #about .about_container .tab_box .item_decr .decr_title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_title p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li i {
+    padding: 0 10px 0 0;
+    color: #2490eb;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #2490eb;
+    border-radius: 5px;
+    -webkit-transition: 0.4s all linear;
+    transition: 0.4s all linear;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button b {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button:hover {
+    background-color: #000;
+  }
+}
+@media (max-width: 1024px) {
+  #about {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  #about .about_container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #about .about_container .about_header {
+    padding: 20px 0;
+  }
+  #about .about_container .about_header h1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item {
+    width: 18%;
+    height: 120px;
+    padding: 15px 0;
+    background-color: #eee;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #eee;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon img {
+    width: 50px;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item span {
+    color: #2490eb;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn .active {
+    background-color: #2490eb;
+    position: relative;
+  }
+  #about .about_container .skills_tab_btn .active::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #2490eb;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: -15px;
+    z-index: -1;
+  }
+  #about .about_container .skills_tab_btn .active span {
+    color: #eee;
+  }
+  #about .about_container .tab_box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #about .about_container .tab_box .box_item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_img img {
+    width: 100%;
+  }
+  #about .about_container .tab_box .item_decr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_decr .decr_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  #about .about_container .tab_box .item_decr .decr_title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_title p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li i {
+    padding: 0 10px 0 0;
+    color: #2490eb;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #2490eb;
+    border-radius: 5px;
+    -webkit-transition: 0.4s all linear;
+    transition: 0.4s all linear;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button b {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button:hover {
+    background-color: #000;
+  }
+}
+@media (max-width: 768px) {
+  #about {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  #about .about_container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #about .about_container .about_header {
+    padding: 20px 0;
+  }
+  #about .about_container .about_header h1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item {
+    width: 18%;
+    height: 100px;
+    padding: 15px 0;
+    background-color: #eee;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #eee;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon img {
+    width: 40px;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item span {
+    color: #2490eb;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn .active {
+    background-color: #2490eb;
+    position: relative;
+  }
+  #about .about_container .skills_tab_btn .active::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #2490eb;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: -15px;
+    z-index: -1;
+  }
+  #about .about_container .skills_tab_btn .active span {
+    color: #eee;
+  }
+  #about .about_container .tab_box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #about .about_container .tab_box .box_item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_img img {
+    width: 100%;
+  }
+  #about .about_container .tab_box .item_decr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_decr .decr_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  #about .about_container .tab_box .item_decr .decr_title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_title p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li i {
+    padding: 0 10px 0 0;
+    color: #2490eb;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #2490eb;
+    border-radius: 5px;
+    -webkit-transition: 0.4s all linear;
+    transition: 0.4s all linear;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button b {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button:hover {
+    background-color: #000;
+  }
+}
+@media (max-width: 768px) {
+  #about {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  #about .about_container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #about .about_container .about_header {
+    padding: 20px 0;
+  }
+  #about .about_container .about_header h1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px;
+    padding: 15px 0;
+    background-color: #eee;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #eee;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item .icon img {
+    width: 40px;
+  }
+  #about .about_container .skills_tab_btn .tab_btn_item span {
+    color: #2490eb;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  #about .about_container .skills_tab_btn .active {
+    background-color: #2490eb;
+    position: relative;
+  }
+  #about .about_container .skills_tab_btn .active::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: -15px;
+    z-index: -1;
+  }
+  #about .about_container .skills_tab_btn .active span {
+    color: #eee;
+  }
+  #about .about_container .tab_box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #about .about_container .tab_box .box_item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_img img {
+    width: 100%;
+  }
+  #about .about_container .tab_box .item_decr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .about_container .tab_box .item_decr .decr_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  #about .about_container .tab_box .item_decr .decr_title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_container .tab_box .item_decr .decr_title p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #999;
+  }
+  #about .about_container .tab_box .item_decr .decr_item li i {
+    padding: 0 10px 0 0;
+    color: #2490eb;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #2490eb;
+    border-radius: 5px;
+    -webkit-transition: 0.4s all linear;
+    transition: 0.4s all linear;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button b {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  #about .about_container .tab_box .item_decr .decr_btn button:hover {
+    background-color: #000;
+  }
+}
+#skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #eee;
+  overflow: hidden;
+}
+#skills .skills_container {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#skills .skills_container .img_box {
+  width: 55%;
+  margin-bottom: -60px;
+}
+#skills .skills_container .img_box img {
+  width: 105%;
+}
+#skills .skills_container .skills_box {
+  margin: 50px 0;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+#skills .skills_container .skills_box .skills_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+#skills .skills_container .skills_box .skills_header h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  margin: 10px 0;
+}
+#skills .skills_container .skills_box .skills_decr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 90%;
+}
+#skills .skills_container .skills_box .skills_decr p {
+  font-size: 17px;
+  line-height: 35px;
+  font-weight: 500;
+  color: rgb(117, 117, 117);
+}
+#skills .skills_container .skills_box .skills_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+}
+#skills .skills_container .skills_box .skills_type .type_box {
+  list-style: none;
+  width: 100%;
+  padding: 10px 0;
+}
+#skills .skills_container .skills_box .skills_type .type_box .type_item {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+#skills .skills_container .skills_box .skills_type .type_box .type_item .item_title_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+#skills .skills_container .skills_box .skills_type .type_box .type_item .progress {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10px;
+  background-color: #fff;
+  padding: 0;
+}
+#skills .skills_container .skills_box .skills_type .type_box .type_item .progress .progress_item {
+  background-color: #2490eb;
+  height: 9.6px;
+  border-radius: 6px;
+}
+
+@media (max-width: 1440px) {
+  #skills {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background: #eee;
+    overflow: hidden;
+  }
+  #skills .skills_container {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #skills .skills_container .img_box {
+    width: 55%;
+    margin-bottom: -60px;
+  }
+  #skills .skills_container .img_box img {
+    width: 105%;
+  }
+  #skills .skills_container .skills_box {
+    margin: 50px 0;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #skills .skills_container .skills_box .skills_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 10px 0;
+  }
+  #skills .skills_container .skills_box .skills_decr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_decr p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+  }
+  #skills .skills_container .skills_box .skills_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100%;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .item_title_box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .progress {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10px;
+    background-color: #fff;
+    padding: 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .progress .progress_item {
+    background-color: #2490eb;
+    height: 9.6px;
+    border-radius: 6px;
+  }
+}
+@media (max-width: 1024px) {
+  #skills {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #eee;
+    overflow: hidden;
+  }
+  #skills .skills_container {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #skills .skills_container .img_box {
+    width: 90%;
+    margin-bottom: -60px;
+  }
+  #skills .skills_container .img_box img {
+    width: 100%;
+    z-index: 3;
+  }
+  #skills .skills_container .skills_box {
+    margin: 50px 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #skills .skills_container .skills_box .skills_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 10px 0;
+  }
+  #skills .skills_container .skills_box .skills_decr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_decr p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+  }
+  #skills .skills_container .skills_box .skills_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100%;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box {
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .item_title_box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .progress {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10px;
+    background-color: #fff;
+    padding: 0;
+  }
+  #skills .skills_container .skills_box .skills_type .type_box .type_item .progress .progress_item {
+    background-color: #2490eb;
+    height: 9.6px;
+    border-radius: 6px;
+  }
+}
 #auto_slider {
   width: 100%;
   background-color: #2490eb;
@@ -1067,6 +2659,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 50px;
+  z-index: 0;
 }
 #auto_slider .auto_slider_box {
   width: 90%;
