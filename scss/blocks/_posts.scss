@@ -49,8 +49,8 @@
       box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
         -2px 2px 8px rgba(61, 61, 61, 0.61);
       .plan_title {
-        padding-top: 20px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 70px;
         display: flex;
         justify-content: center;
         background-color: #14457b;
@@ -173,8 +173,8 @@
         box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
           -2px 2px 8px rgba(61, 61, 61, 0.61);
         .plan_title {
-          padding-top: 20px;
-          padding-bottom: 50px;
+          padding-top: 40px;
+          padding-bottom: 70px;
           display: flex;
           justify-content: center;
           background-color: #14457b;
@@ -300,8 +300,8 @@
         box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
           -2px 2px 8px rgba(61, 61, 61, 0.61);
         .plan_title {
-          padding-top: 20px;
-          padding-bottom: 50px;
+          padding-top: 40px;
+          padding-bottom: 70px;
           display: flex;
           justify-content: center;
           background-color: #14457b;
@@ -372,7 +372,19 @@
     }
   }
 }
-
+.info {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    padding: 10px;
+    background-color: #59b0f75d;
+    color: #2490eb;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}
 @media (max-width: 768px) {
   #post {
     width: 100%;
@@ -427,8 +439,8 @@
         box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
           -2px 2px 8px rgba(61, 61, 61, 0.61);
         .plan_title {
-          padding-top: 20px;
-          padding-bottom: 50px;
+          padding-top: 40px;
+          padding-bottom: 70px;
           display: flex;
           justify-content: center;
           background-color: #14457b;
@@ -554,8 +566,8 @@
         box-shadow: 2px 2px 8px rgba(109, 109, 109, 0.61),
           -2px 2px 8px rgba(61, 61, 61, 0.61);
         .plan_title {
-          padding-top: 20px;
-          padding-bottom: 50px;
+          padding-top: 70px;
+          padding-bottom: 100px;
           display: flex;
           justify-content: center;
           background-color: #14457b;

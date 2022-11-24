@@ -1,4 +1,3 @@
-
 a {
   text-decoration: none;
   color: #fff;
@@ -92,6 +91,7 @@ a {
         justify-content: flex-start;
         align-items: center;
         width: 100%;
+        padding-bottom: 20px;
 
         .title {
           font-size: 28px;
@@ -170,6 +170,7 @@ a {
   .copy {
     color: #fff;
     font-size: 20px;
+    padding: 30px;
     font-weight: 50;
   }
 }
