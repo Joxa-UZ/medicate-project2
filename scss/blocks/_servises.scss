@@ -1,0 +1,128 @@
+#servises {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .servises_container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .servises_item {
+      width: 30%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      background-color: rgba(255, 255, 255, 0.952);
+      border-radius: 8px;
+      margin: 20px 0;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      transition: 0.4s all linear;
+      .servis_icon {
+        width: 80px;
+        padding: 10px;
+        z-index: 1;
+        transition: 0.4s all linear;
+      }
+      .servises_bg_img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -2;
+        opacity: 0;
+        transition: 0.4s all linear;
+      }
+      .servises_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        z-index: -1;
+        background-color: #2490eb;
+        transition: 0.4s all linear;
+      }
+      .servises_title {
+        font-size: 26px;
+        padding: 30px 0 20px 10px;
+        font-weight: 600;
+        z-index: 1;
+        transition: 0.4s all linear;
+      }
+      .servises_decr {
+        font-size: 16px;
+        padding: 10px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #999;
+        z-index: 1;
+        transition: 0.4s all linear;
+      }
+      .servises_btn {
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 600;
+        color: #2490eb;
+        z-index: 1;
+        transition: 0.4s all linear;
+      }
+      &:hover {
+        .servis_icon {
+          width: 80px;
+          padding: 10px;
+          z-index: 1;
+        }
+        .servises_bg_img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          z-index: -2;
+          opacity: 0.7;
+        }
+        .servises_bg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0.8;
+          z-index: -1;
+          background-color: #2490eb;
+        }
+        .servises_title {
+          font-size: 26px;
+          padding: 30px 0 20px 10px;
+          font-weight: 600;
+          z-index: 1;
+          color: #fff;
+        }
+        .servises_decr {
+          font-size: 16px;
+          padding: 10px;
+          line-height: 25px;
+          font-weight: 600;
+          color: #fff;
+          z-index: 1;
+        }
+        .servises_btn {
+          font-size: 20px;
+          padding: 10px;
+          font-weight: 600;
+          color: #fff;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
